@@ -1,0 +1,201 @@
+/* 10 css properperties I used
+- align-content
+- overflow
+- white-space
+- border-right;
+- border-radius;
+- position
+- text-shadow
+- z-index
+- background
+- animation
+
+
+*/
+
+
+
+
+
+body {
+	align-content: center;
+	text-align: center;
+	color: rgb(0,128,128);
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background: linear-gradient(-45deg, #fdf3fe, #eb82fd, #db22fb, #820298);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 5s ease-in-out infinite;
+}
+
+@keyframes animate 
+{
+	0% 
+	{
+		background-position: 0%;
+	}
+	100% 
+	{
+		background-position: 400$;
+	}
+}
+
+@keyframes change {
+	0%{
+		background-poasition: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+
+h3 {
+	font-size: 300px;
+	font-family: Micaroline;
+	animation: type 3s steps(11);
+	overflow:hidden;
+	white-space:nowrap;
+	border-right: 4px solid black;
+	width:11ch;
+
+}
+
+@keyframes type {
+	0% {
+		width:0ch;
+	}
+	100% {
+		width:11ch;
+
+	}
+}
+
+h4 {
+	margin: 0;
+	font-size: 50px;
+	font-family: Micaroline;
+}
+
+
+
+h5 {
+	margin: ;
+	font-size: 100px;
+	font-family: Micaroline ;
+}
+
+
+.india {
+	align-content: left;
+	width: 1000px;
+	height: 800px;
+
+}
+
+
+
+.flag {
+	align-content: right
+	width: 600px;
+	height: 380px;
+
+}
+
+h6 {
+
+	font-size: 100px;
+	font-family: Micaroline ;
+}
+
+
+h7 {
+	text-align: center;
+	font-size: 100px;
+	font-family: Micaroline ;
+}
+
+
+h8 {
+	text-align: center;
+	font-size: 100px;
+	font-family: Micaroline ;
+}
+
+h9 {
+	text-align: center;
+	font-size: 100px;
+	font-family: Micaroline ;
+}
+
+h10 {
+	text-align: center;
+	font-size: 100px;
+	font-family: Micaroline ;
+}
+
+
+.food1 {
+	width: 800px;
+	height: 400px;
+}
+
+.food2{
+	width: 800px;
+	height: 500px;
+}
+
+.food3 {
+	width: 800px;
+	height:600px;
+}
+
+.food4 {
+	width: 800px;
+	height: 700px;
+}
+
+
+
+
+.sing {
+	width: 500px;
+	height: 400px;
+}
+
+
+
+.sketch {
+	width: 500px;
+	height: 400px;
+}
+
+
+
+
+.artist {
+	width: 800px;
+	height: 600px;
+	border-radius: 50px;
+
+}
+
+
+
+.neon
+{
+	position: absolute;
+	color: #fff;
+	text-shadow: 0 0 20px #ff005b;
+}
+
+.neon:after
+{
+	content: attr(data-text);
+	z-index: -1;
+	color: #ff005b;
