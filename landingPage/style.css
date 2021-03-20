@@ -12,7 +12,7 @@ body {
 
 h3 {
 	font-size: 50px;
-	position: absolute:
+	position: absolute;
 	transform: translate(-50%, -50%);
 	font-family: Akira Bold;
 	src: url(Akira Bold.otf);
@@ -50,11 +50,6 @@ a {
 a:hover {
 	transform: scale(1.5);
 }
-
-
-
-
-
 
 
 @keyframes animate 
