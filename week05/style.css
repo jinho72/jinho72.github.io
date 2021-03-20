@@ -1,0 +1,326 @@
+body {
+	background-color: white;
+	
+}
+
+
+.site {
+	width: 90%;
+	padding:10px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+
+}
+.box {
+	width: 700px;
+	height: 500px;
+	margin: 50px;
+	background-color: transparent;
+	border-radius: 0px;
+	transition: 0.3s;
+}
+
+.lungs {
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+	align-content: center;
+	transition: 0.3s brightness(20%);
+}
+
+.box: not(img) {
+	position: absolute;
+	top: 30%;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+	transition: 0.3s ;
+	box-shadow: 0 0 16px cyan;
+
+}
+.box:hover{
+	transform:scale(1.3);
+	z-index: 2;
+	filter: blur(2px);
+
+}
+
+.container {
+	font-family: Fast In My Car;
+	font-size: 30px;
+	height: 20vh;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+
+}
+h1 { /*  PRESENTING */
+	text-align: center;
+	font-family: Akira Expanded;
+	font-size:25px;
+	color: black;
+}
+
+h2 { /* LUNGS */
+	text-align: center;
+	font-family: Fast In My Car;
+	font-size: 500px;
+	font-weight: bold;
+	color: black;
+	padding: 0em;
+	margin: 0em;
+	border: 0em;
+	
+}
+
+section {
+	background-image: url(hitler.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: rect(0px, 0px, 150px, 0px);
+	background-size: 600px 700px;
+
+}
+
+
+.slave { /* photo of a slave worker */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: center;
+	width: 500px;
+	height: 600px;
+	
+
+}
+h3 { /* SLAVE LABOUR */
+	text-align: center;
+	font-family: Fast In My Car;
+	font-size: 100px;
+	color: black;
+	padding: 0em;
+	margin: 0em;
+	/* text-shadow: 2px 2px #efsdf; */
+	
+
+}
+h4 { /* by Graham Harwood and Matsuko Yokokiji */
+	text-align: center;
+	font-family: Fast In My Car;
+	font-size: 15px;
+	color: black;
+
+}
+
+h7 {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: black;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	color: black;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+
+}
+
+.artist {
+	width: 500px;
+	height: 400px;
+}
+
+.container3 {
+	display: flex;
+	flex-direction: row;
+	height: 150vh;
+	color: black;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+
+}
+
+.container4 {
+	display: flex;
+	flex-direction: row;
+	height: 150vh;
+	color: black;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+
+}
+
+.monster {
+	width: 500px;
+	height: 600px;
+}
+
+
+
+.item2 {
+	font-family: Fast In My Car;
+	font-size: 50px;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+}
+
+.item2: hover {
+	transform:scale(1.3);
+	z-index: 2;
+	filter: blur(2px);
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+
+
+
+
+
+
+
+/* reflection */
+
+
+
+
+
+
+
+.site {
+	position: relative;
+}
+
+.tag { 
+	position: absolute;
+	bottom: 10px;
+	right: 200px;
+	text-align: left;
+	font-family: Akira Expanded;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	font-size: 30px;
+	color: black;
+	margin-top: 50px;
+
+
+}
+
+h6 { /* by Graham Harwood and Matsuko Yokokiji */
+	text-align: left;
+	font-family: Akira Expanded;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	text-orientation: use-glyph-orientation;
+	padding-right: 200px;
+	font-size: 30px;
+	color: black;
+	margin-right: 0px
+
+
+}
+
+#setup {
+	height: 500px;
+	width: 700px;
+	align-content: center;
+	margin-top: 100px;
+	margin-left: 0px
+	padding: 0px; 
+	border: 5px solid black;
+
+}
+
+.first {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	color: black;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	border-top: 100px;
+}
+
+.second {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	color: black;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+
+p2 {
+	font-family: Helvetica;
+	font-size: 30px;
+	color: black;
+	margin-left: 100px;
+	margin-right: 150px;
+}
+
+h10 {
+	font-family: Helvetica;
+	font-size: 30px;
+	color: black;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+
+
+.direction {
+	display: flex;
+	flex-direction: row;
+	height: 30hv;
+	color: black;
+	justify-content: space-around;
+}
+
+
+
+
+.slides {
+	font-family: Akira Expanded;
+	font-size: 20px;
+
+}
+
+
+
+a:link {
+	text-decoration: none;
+}
+
+a: active {
+	text-decoration: none;
+}
+
+
+
+a: hover {
+	text-decoration: underline;
+}
+
+
