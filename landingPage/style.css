@@ -14,15 +14,15 @@ h3 {
 	font-size: 50px;
 	position: absolute;
 	transform: translate(-50%, -50%);
-	font-family: Akira Bold;
-	src: url(Akira Bold.otf);
+	font-family: CreatoDisplay-Light;
+	src: url(CreatoDisplay-Light.otf);
 	color: rgb(255,255,255);
 }
 
 h4 {
 	font-size: 50px;
-	font-family: Akira Bold;
-	src: url(Akira Bold.otf);
+	font-family: CreatoDisplay-Light;
+	src: url(CreatoDisplay-Light.otf);
 	color: rgb(255,255,255);
 	text-align: right;
 }
