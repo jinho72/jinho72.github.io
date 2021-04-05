@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    align-content: right;
+    color: white;
+    font-family: CreatoDisplay-MediumItalic;
+    src: url(CreatoDisplay-MediumItalic.otf);
+    font-size: 70px;
+
+}
+
+h2 {
+    margin-right: 50px;
+    background-color: none;
+    color:blue;
+    font-family: CreatoDisplay-MediumItalic;
+    src: url(CreatoDisplay-MediumItalic.otf);
+    font-size: 150px;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+}
+
+button {
+
+    background-color: none;
+    color:white;
+    font-family: CreatoDisplay-MediumItalic;
+    src: url(CreatoDisplay-MediumItalic.otf);
+    font-size: 20px;
+
+}
+
+p {
+    margin: 200px;
+    color: white;
+    font-family: CreatoDisplay-MediumItalic;
+    src: url(CreatoDisplay-MediumItalic.otf);
+    font-size: 30px;
+    
+}
+
+footer {
+    color: white;
+    font-family: CreatoDisplay-MediumItalic;
+    src: url(CreatoDisplay-MediumItalic.otf);
+    font-size: 20px;
+    
+}
+
+    
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
