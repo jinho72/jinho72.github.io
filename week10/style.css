@@ -1,0 +1,175 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: CreatoDisplay-Medium;
+    src: url('CreatoDisplay-Medium.otf');
+}
+
+h1 {
+    font-size: 150px;
+    color: white;
+    font-family: CreatoDisplay-Bold;
+    src: url('CreatoDisplay-Bold.otf')
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    font-family: CreatoDisplay-MediumItalic;
+    src: url('CreatoDisplay-MediumItalic.otf')
+}
+
+p1 {
+    font-size: 15px;
+    color: white;
+    font-family: CreatoDisplay-Bold;
+    src: url('CreatoDisplay-Bold.otf')
+}
+:root { /* root color for various states: neutral, wrong, correct */
+    --hue-violetpride: 282; 
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 120;
+}
+
+
+body {
+    --hue: var(--hue-violetpride);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+    background-color: hsl(var(--hue), 97%, 54%)
+
+} 
+
+body.correct { /* when the answer is correct turn body into green */
+    background-color: hsl(var(--hue-correct), 73%, 75%);
+     
+}
+
+body.wrong { /* when the answer is wrong turn body into red */
+    background-color: hsl(var(--hue-wrong), 72%, 55%)
+     
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    padding: 10px;
+
+}
+
+#question {
+    font-size: 40px;
+
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;    
+}
+
+.btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+#start-btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+
+    /* animation with the help of https://1stwebdesigner.com/20-amazing-pure-css-animated-buttons/ */
+
+    border-color: #3498db; 
+    color: white;
+    box-shadow: 0 0 60px 60px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+
+#next-btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+
+    /* animation with the help of https://1stwebdesigner.com/20-amazing-pure-css-animated-buttons/ */
+
+    border-color: #3498db; 
+    color: white;
+    box-shadow: 0 0 60px 60px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+#start-btn:hover {
+    /* animation with the help of https://1stwebdesigner.com/20-amazing-pure-css-animated-buttons/ */
+    
+    
+    box-shadow: 0 0 50px 0 #3498db inset, 0 0 10px 7px #3498db; 
+} 
+
+#next-btn:hover {
+    /* animation with the help of https://1stwebdesigner.com/20-amazing-pure-css-animated-buttons/ */
+    
+    
+    box-shadow: 0 0 50px 0 #3498db inset, 0 0 10px 7px #3498db; 
+} 
+
+.btn.correct {
+    --hue: var(--hue-correct);
+}
+
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+
+
+.hide {
+    display: none;
+
+
+    
+    
+
+
+    
+
