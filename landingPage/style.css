@@ -11,14 +11,14 @@ body {
 
 
 h3 {
-	font-size: 50px;
+	font-size: 35px;
 	font-family: CreatoDisplay-Light;
 	src: url(CreatoDisplay-Light.otf);
 	color: rgb(255,255,255);
 }
 
 h4 {
-	font-size: 50px;
+	font-size: 35px;
 	font-family: CreatoDisplay-Light;
 	src: url(CreatoDisplay-Light.otf);
 	color: rgb(255,255,255);
@@ -28,15 +28,15 @@ h4 {
 .content {
 	font-family: CreatoDisplay-Bold;
 	src: url(CreatoDisplay-Bold.otf);
-	font-size: 70px;
+	font-size: 50px;
 	text-decoration: none;
 	color: white;
 
 }
 
-.content : hover {
-	color: black;
+.content:hover {
 	transform: scale(1.5);
+	transition-duration: 0.3s
 }
 
 a {
