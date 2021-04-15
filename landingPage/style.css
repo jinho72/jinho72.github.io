@@ -13,21 +13,21 @@ body {
 h3 {
 	font-size: 35px;
 	font-family: CreatoDisplay-Light;
-	src: url(CreatoDisplay-Light.otf);
+	src: url('CreatoDisplay-Light.otf');
 	color: rgb(255,255,255);
 }
 
 h4 {
 	font-size: 35px;
 	font-family: CreatoDisplay-Light;
-	src: url(CreatoDisplay-Light.otf);
+	src: url('CreatoDisplay-Light.otf');
 	color: rgb(255,255,255);
 	text-align: right;
 }
 
 .content {
 	font-family: CreatoDisplay-Bold;
-	src: url(CreatoDisplay-Bold.otf);
+	src: url('CreatoDisplay-Bold.otf');
 	font-size: 50px;
 	text-decoration: none;
 	color: white;
