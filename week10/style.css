@@ -18,6 +18,13 @@ h2 {
     src: url('CreatoDisplay-MediumItalic.otf')
 }
 
+a {
+    font-size: 20px;
+    color: white;
+    font-family: CreatoDisplay-MediumItalic;
+    src: url('CreatoDisplay-MediumItalic.otf')
+}
+
 p1 {
     font-size: 15px;
     color: white;
