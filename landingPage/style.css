@@ -11,22 +11,22 @@ body {
 
 h3 {
 	font-size: 35px;
-	font-family: CreatoDisplay-Light;
-	src: url('CreatoDisplay-Light.otf');
+	font-family: 'CreatoDisplay-Light';
+	src: url('../creato-display/CreatoDisplay-Light.otf') format('opentype');
 	color: rgb(255,255,255);
 }
 
 h4 {
 	font-size: 35px;
-	font-family: CreatoDisplay-Light;
-	src: url('CreatoDisplay-Light.otf');
+	font-family: 'CreatoDisplay-Light';
+	src: url('../creato-display/CreatoDisplay-Light.otf') format('opentype');
 	color: rgb(255,255,255);
 	text-align: right;
 }
 
 .content {
-	font-family: CreatoDisplay-Bold;
-	src: url('CreatoDisplay-Bold.otf');
+	font-family: 'CreatoDisplay-Bold';
+	src: url('../creato-display/CreatoDisplay-Bold.otf') format('opentype');
 	font-size: 50px;
 	text-decoration: none;
 	color: white;
